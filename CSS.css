@@ -1,0 +1,52 @@
+body{
+    background-color: green;
+    background-image: url(pantano.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.plano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90vh;
+}
+
+
+.celular{
+    border-radius: 12%;
+    height: 35rem;
+    margin-top: 2cm;
+    min-width: 0;
+    min-height: 0;
+}
+
+.shrek{
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    margin-top: 7px;
+    border: 3px solid #442200;
+}
+
+.bloco{
+    margin-left: 250px;
+    margin-right: 100px;
+    max-height: 70%;
+    max-width: 70%;
+}
+
+.blocoshrek{
+    background-color: #ccffcc;
+    display: flex;
+    border: 4px solid #442200;
+    width: 10cm;
+    height: 12cm;
+    max-width: auto;
+    max-height: auto;
+    justify-content: center;
+}
