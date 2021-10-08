@@ -21,8 +21,7 @@ body{
     border-radius: 12%;
     height: 35rem;
     margin-top: 2cm;
-    min-width: 0;
-    min-height: 0;
+    margin-left: 5cm;
 }
 
 .shrek{
@@ -34,10 +33,11 @@ body{
 }
 
 .bloco{
-    margin-left: 250px;
+    margin-left: 200px;
     margin-right: 100px;
     max-height: 70%;
     max-width: 70%;
+    flex-direction: column;
 }
 
 .blocoshrek{
@@ -45,8 +45,46 @@ body{
     display: flex;
     border: 4px solid #442200;
     width: 10cm;
-    height: 12cm;
-    max-width: auto;
-    max-height: auto;
+    height: 7cm;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.naoshrek{
+    margin-top: 0.7cm;
+    display: flex;
+    border: 4px solid #442200;
+    width: 10cm;
+    height: 2.4cm;
+    background-color: #ccffcc;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ingressar{
+    color: #048;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 1cm;
+    background-color: #eeffee;
+}
+
+.facetheurro{
+    font-size: 36px;
+    background-color: #ffeeff;
+    padding: 2px 10px 2px 10px;
+    border: 2px solid #333333;
+    border-radius: 1cm;
+    font-family: cursive;
+}
+
+.logs{
+    border: 2px solid #232333;
+    background-color: #395555;
+    border-radius: 1cm;
+    color: #ffffff;
+    padding: 3px 10px 3px 10px;
 }
