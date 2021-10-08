@@ -88,3 +88,27 @@ body{
     color: #ffffff;
     padding: 3px 10px 3px 10px;
 }
+
+@media (max-width: 650px){
+
+    .celular{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px){
+
+    .bloco{
+        width: 90%;
+    }
+    .blocoshrek{
+        width: 90%;
+    }
+    .naoshrek{
+        width: 90%;
+    }
+    .celular{
+        width: 80%;
+        height: 80%;
+    }
+}
